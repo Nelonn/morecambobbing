@@ -1,0 +1,35 @@
+{
+  "format_version": "0.2",
+  "frame_length": 1,
+  "parts": [
+    {
+      "name": "camera",
+      "keyframes": {
+        "0": {
+          "translate": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "rotate": [
+            0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "1": {
+          "translate": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "rotate": [
+            0.0,
+            -0.0,
+            -0.0
+          ]
+        }
+      }
+    }
+  ]
+}

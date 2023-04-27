@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.nelonn.morecambobbing.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MixinMinecraft"
+  ],
+  "client": [
+    "MixinGameRenderer",
+    "MixinLivingEntity",
+    "MixinLivingEntityRenderer",
+    "debug.MixinDebugScreenOverlay",
+    "models.MixinPlayerModel"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

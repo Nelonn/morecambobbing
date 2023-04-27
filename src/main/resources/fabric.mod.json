@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "morecambobbing",
+  "version": "${version}",
+
+  "name": "More Cam Bobbing",
+  "description": "More camera bobbing",
+  "authors": [
+    "Nelonn"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Nelonn/morecambobbing/",
+    "sources": "https://github.com/Nelonn/morecambobbing/"
+  },
+
+  "license": "MIT",
+  "icon": "assets/morecambobbing/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.nelonn.morecambobbing.MoreCamBobbingMain"
+    ]
+  },
+  "mixins": [
+    "morecambobbing.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric-api": "*",
+    "minecraft": "1.19.4",
+    "java": ">=17"
+  },
+  "suggests": {
+  }
+}
